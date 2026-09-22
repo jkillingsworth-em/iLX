@@ -40,7 +40,7 @@ export const sources = [
   {
     title: "LX-series owner’s manuals",
     href: "https://www.electro-mech.com/manuals/",
-    note: "Install, maintain, and the per-model LX driver connector table. Operation lives in the console handbook.",
+    note: "Per-model PDFs on the factory CDN. Open inside iLX on the Docs tab. ETN cabinets use the base-model manual.",
   },
   {
     title: "Color specification sheets",
@@ -48,9 +48,9 @@ export const sources = [
     note: "Face layouts and digit callouts used for the display lists in this guide.",
   },
   {
-    title: "Mechanical cut sheets (Drive)",
-    href: "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
-    note: "235 unique PDFs — cabinet size, weight, eye-bolts, clamp hardware, post diameter. Named LX#### Cutsheet.pdf plus -ETN variants.",
+    title: "Mechanical cut sheets",
+    href: "/catalog",
+    note: "Per-model PDFs open inside iLX. Cabinet size, weight, eye-bolts, clamp hardware, post diameter. ETN variants when the board has team names.",
   },
   {
     title: "Baseball display matrix (Drive)",
