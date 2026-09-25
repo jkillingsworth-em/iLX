@@ -1,8 +1,9 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { partsById } from "@/data/parts";
 import { models } from "@/data/models";
-import { Badge } from "@/components/ui/badge";
+import { BoardPhoto } from "@/components/lx/board-photo";
 import { Page } from "@/components/site/page";
+import { SheetSection, SpecRow } from "@/components/sheet/sheet";
 
 export const Route = createFileRoute("/parts/$partId")({
   component: PartPage,
@@ -17,78 +18,78 @@ function PartPage() {
   const sampleModels = models.filter((m) => m.components.includes(part.id)).slice(0, 12);
 
   return (
-    <Page className="space-y-8">
-      <div>
-        <Link to="/parts" className="text-xs text-muted hover:text-fg">
-          Hardware
+    <Page className="space-y-10">
+      <header className="flex flex-col gap-2">
+        <Link to="/parts" className="self-start text-xs text-muted hover:text-fg">
+          ← Hardware
         </Link>
-        <p className="mt-3">
-          <Badge>{part.category}</Badge>
-        </p>
-        <h1 className="mt-2 font-display text-4xl tracking-tight">{part.name}</h1>
-        <p className="mt-2 max-w-2xl text-base text-muted">{part.role}</p>
+        <span className="mt-2 self-start rounded-xs border border-border px-2 py-0.5 font-mono text-[11px] uppercase tracking-[0.05em] text-muted">
+          {part.category}
+        </span>
+        <h1 className="font-display text-4xl tracking-tight">{part.name}</h1>
+        <p className="max-w-2xl text-base leading-relaxed text-muted">{part.role}</p>
+      </header>
+
+      <div className="grid border-b border-border border-t-2 border-t-fg lg:grid-cols-[minmax(0,1fr)_340px]">
+        <div className="flex min-h-[200px] items-center justify-center bg-bg-elevated p-6">
+          {part.image ? (
+            <img
+              src={part.image}
+              alt={part.name}
+              className="max-h-72 w-auto max-w-full object-contain"
+            />
+          ) : (
+            <span className="font-mono text-[11px] uppercase tracking-[0.05em] text-subtle">
+              No plant photo
+            </span>
+          )}
+        </div>
+        <div className="flex flex-col gap-2 py-3 lg:pl-5 lg:pb-4">
+          <h2 className="font-mono text-[11px] font-medium uppercase tracking-[0.16em]">
+            How it works
+          </h2>
+          <p className="text-sm leading-[1.65]">{part.how}</p>
+        </div>
       </div>
 
-      {part.image ? (
-        <div className="overflow-hidden rounded-lg border border-border bg-bg-elevated p-6">
-          <img
-            src={part.image}
-            alt={part.name}
-            className="mx-auto max-h-72 w-auto object-contain"
-          />
-        </div>
-      ) : null}
-
-      <section className="rounded-lg border border-border bg-bg-elevated p-5">
-        <h2 className="font-display text-xl tracking-wide">How it works</h2>
-        <p className="mt-2 text-sm leading-relaxed text-muted">{part.how}</p>
-      </section>
-
-      <section>
-        <h2 className="font-display text-xl tracking-wide">Specs</h2>
-        <dl className="mt-3 grid gap-2 sm:grid-cols-2">
+      <SheetSection label="Specs">
+        <dl>
           {part.specs.map((s) => (
-            <div key={s.label} className="rounded-md border border-border px-4 py-3">
-              <dt className="font-mono text-[10px] uppercase tracking-wider text-subtle">{s.label}</dt>
-              <dd className="mt-1 text-sm">{s.value}</dd>
-            </div>
+            <SpecRow key={s.label} label={s.label} value={s.value} />
           ))}
         </dl>
-      </section>
+      </SheetSection>
 
-      <section>
-        <h2 className="font-display text-xl tracking-wide">Talks to</h2>
-        <p className="mt-1 text-sm text-muted">{part.usedOn}</p>
-        <div className="mt-3 flex flex-wrap gap-2">
-          {neighbors.map((n) => (
-            <Link
-              key={n.id}
-              to="/parts/$partId"
-              params={{ partId: n.id }}
-              className="rounded-sm border border-border px-3 py-2 text-sm hover:border-accent"
-            >
-              {n.name}
-            </Link>
-          ))}
-        </div>
-      </section>
+      <SheetSection label="Talks to">
+        <p className="border-b border-border px-4 py-3 text-sm text-muted">{part.usedOn}</p>
+        {neighbors.map((n) => (
+          <Link
+            key={n.id}
+            to="/parts/$partId"
+            params={{ partId: n.id }}
+            className="group grid grid-cols-[minmax(0,1fr)_16px] gap-4 border-b border-border px-4 py-3 text-sm transition-colors duration-150 hover:bg-surface"
+          >
+            {n.name}
+            <span className="text-subtle group-hover:text-fg">→</span>
+          </Link>
+        ))}
+      </SheetSection>
 
       {sampleModels.length ? (
-        <section>
-          <h2 className="font-display text-xl tracking-wide">On these models</h2>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {sampleModels.map((m) => (
-              <Link
-                key={m.id}
-                to="/catalog/$modelId"
-                params={{ modelId: m.id }}
-                className="rounded-sm border border-border px-3 py-2 font-display tracking-wide hover:border-accent"
-              >
-                {m.id}
-              </Link>
-            ))}
-          </div>
-        </section>
+        <SheetSection label="On these models" hint="First twelve">
+          {sampleModels.map((m) => (
+            <Link
+              key={m.id}
+              to="/catalog/$modelId"
+              params={{ modelId: m.id }}
+              className="group grid grid-cols-[72px_minmax(0,1fr)_16px] items-center gap-4 border-b border-border py-2 pl-2 pr-4 transition-colors duration-150 hover:bg-surface"
+            >
+              <BoardPhoto modelId={m.id} className="h-10" />
+              <span className="font-display text-lg font-medium tracking-[0.025em]">{m.id}</span>
+              <span className="text-right text-subtle group-hover:text-fg">→</span>
+            </Link>
+          ))}
+        </SheetSection>
       ) : null}
     </Page>
   );

@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { layers, systemNodes, systemNodesById } from "@/data/system";
 import { partsById } from "@/data/parts";
+import { DetailPanel, sheetRowClass, SheetRowBody } from "@/components/sheet/sheet";
 import { cn } from "@/lib/utils";
 
 export function SystemMap({ highlightParts = [] }: { highlightParts?: string[] }) {
@@ -13,19 +14,22 @@ export function SystemMap({ highlightParts = [] }: { highlightParts?: string[] }
   );
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_20rem]">
-      <div className="space-y-5">
+    <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
+      <div className="flex flex-col border-t-2 border-fg">
         {layers.map((layer) => {
           const nodes = systemNodes.filter((n) => n.layer === layer.id);
           return (
-            <section key={layer.id}>
-              <div className="mb-2 flex items-baseline justify-between">
-                <h3 className="font-display text-sm tracking-[0.16em] text-muted uppercase">
+            <section
+              key={layer.id}
+              className="grid border-b border-border-strong sm:grid-cols-[140px_minmax(0,1fr)]"
+            >
+              <div className="flex flex-col gap-1 py-3 sm:pr-3">
+                <h3 className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-fg">
                   {layer.label}
                 </h3>
-                <span className="text-xs text-subtle">{layer.hint}</span>
+                <span className="text-xs leading-snug text-subtle">{layer.hint}</span>
               </div>
-              <div className="grid gap-2 sm:grid-cols-2">
+              <div className="flex flex-col border-border sm:border-l">
                 {nodes.map((n) => {
                   const lit = n.id === active;
                   const tagged = n.parts.some((p) => highlightParts.includes(p));
@@ -34,22 +38,15 @@ export function SystemMap({ highlightParts = [] }: { highlightParts?: string[] }
                       key={n.id}
                       type="button"
                       onClick={() => setActive(n.id)}
-                      className={cn(
-                        "rounded-md border p-3 text-left transition-colors duration-150",
-                        lit
-                          ? "border-accent bg-surface"
-                          : "border-border bg-bg-elevated hover:border-border-strong",
-                      )}
+                      aria-pressed={lit}
+                      className={cn(sheetRowClass(lit), "last:border-b-0")}
                     >
-                      <div className="flex items-center justify-between gap-2">
-                        <span className="font-display text-base tracking-wide">{n.title}</span>
-                        {tagged ? (
-                          <span className="font-mono text-[10px] uppercase tracking-wider text-led">
-                            on this board
-                          </span>
-                        ) : null}
-                      </div>
-                      <p className="mt-1 text-sm text-muted">{n.summary}</p>
+                      <SheetRowBody
+                        title={n.title}
+                        summary={n.summary}
+                        meta={tagged ? <span className="text-led">On this board</span> : undefined}
+                        active={lit}
+                      />
                     </button>
                   );
                 })}
@@ -59,43 +56,48 @@ export function SystemMap({ highlightParts = [] }: { highlightParts?: string[] }
         })}
       </div>
 
-      <aside className="h-fit rounded-lg border border-border bg-surface p-5 lg:sticky lg:top-20">
-        <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-subtle">Signal stage</p>
-        <h3 className="mt-1 font-display text-2xl tracking-wide">{node.title}</h3>
-        <p className="mt-3 text-sm leading-relaxed text-muted">{node.detail}</p>
+      <DetailPanel
+        kicker="Signal stage"
+        title={node.title}
+        className="h-fit lg:sticky lg:top-20"
+        actions={
+          node.next.length ? (
+            node.next.map((id) => (
+              <button
+                key={id}
+                type="button"
+                onClick={() => setActive(id)}
+                className="rounded-xs bg-accent px-2.5 py-1.5 font-mono text-[11px] uppercase tracking-[0.05em] text-accent-fg transition-opacity duration-150 hover:opacity-90"
+              >
+                Next: {systemNodesById[id]?.title} →
+              </button>
+            ))
+          ) : (
+            <p className="text-xs text-subtle">End of the chain — the crowd sees the face.</p>
+          )
+        }
+      >
+        <p className="border-b border-border py-3 text-sm leading-[1.65]">{node.detail}</p>
         {related.length ? (
-          <ul className="mt-4 space-y-2">
+          <ul className="flex flex-col">
             {related.map((p) => (
               <li key={p.id}>
                 <Link
                   to="/parts/$partId"
                   params={{ partId: p.id }}
-                  className="block rounded-sm border border-border bg-bg-elevated px-3 py-2 text-sm hover:border-accent"
+                  className="group grid grid-cols-[minmax(0,1fr)_16px] gap-2 border-b border-border py-2.5 transition-colors duration-150 hover:bg-surface"
                 >
-                  <span className="text-fg">{p.name}</span>
-                  <span className="mt-0.5 block text-xs text-subtle">{p.short}</span>
+                  <span className="flex flex-col gap-0.5">
+                    <span className="text-sm">{p.name}</span>
+                    <span className="font-mono text-[11px] text-subtle">{p.short}</span>
+                  </span>
+                  <span className="text-subtle group-hover:text-fg">→</span>
                 </Link>
               </li>
             ))}
           </ul>
         ) : null}
-        {node.next.length ? (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {node.next.map((id) => (
-              <button
-                key={id}
-                type="button"
-                onClick={() => setActive(id)}
-                className="rounded-sm border border-border px-2 py-1 font-mono text-[11px] uppercase tracking-wide text-muted hover:text-fg"
-              >
-                Next: {systemNodesById[id]?.title}
-              </button>
-            ))}
-          </div>
-        ) : (
-          <p className="mt-4 text-xs text-subtle">End of the chain — the crowd sees the face.</p>
-        )}
-      </aside>
+      </DetailPanel>
     </div>
   );
 }
