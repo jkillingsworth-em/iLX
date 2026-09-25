@@ -1,5 +1,6 @@
 import { models } from "@/data/models";
 import { assembliesByModel, bomByModel } from "@/data/bom";
+import { etnItemLines } from "@/data/etn";
 import type { LxModel } from "@/data/types";
 
 export function hasEtn(m: LxModel): boolean {
@@ -17,6 +18,9 @@ export function normalize(q: string): string {
 function haystack(m: LxModel): string {
   const bom = (bomByModel[m.id] ?? []).map((b) => `${b.part} ${b.item}`).join(" ");
   const asm = (assembliesByModel[m.id] ?? []).map((a) => `${a.item} ${a.use}`).join(" ");
+  const etn = etnItemLines(m.id, m.environment === "indoor")
+    .map((line) => `${line.code} ${line.label}`)
+    .join(" ");
   return [
     m.id,
     m.blurb,
@@ -33,6 +37,7 @@ function haystack(m: LxModel): string {
     m.digitKit?.map((d) => `${d.part} ${d.item} ${d.use}`).join(" ") ?? "",
     bom,
     asm,
+    etn,
   ]
     .join(" ")
     .toLowerCase();
@@ -73,6 +78,13 @@ export function modelsUsingPart(part: string): { model: LxModel; qty: number; it
     for (const k of m.digitKit ?? []) {
       if (`${k.part} ${k.item}`.toLowerCase().includes(needle)) {
         hits.push({ model: m, qty: k.qty, item: k.item });
+      }
+    }
+    for (const line of etnItemLines(m.id, m.environment === "indoor")) {
+      const blob = `${line.code} ${line.label}`.toLowerCase();
+      const compact = blob.replace(/[^a-z0-9]/g, "");
+      if (blob.includes(needle) || compact.includes(normalize(needle))) {
+        hits.push({ model: m, qty: line.qty, item: `${line.code} · ${line.label}` });
       }
     }
   }

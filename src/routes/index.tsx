@@ -72,7 +72,7 @@ function Home() {
       <section className="grid gap-2 sm:grid-cols-3">
         <Link to="/digits" className="rounded-md border border-border bg-surface p-4 hover:border-accent">
           <p className="font-display text-lg tracking-wide">Digit BOM</p>
-          <p className="mt-1 text-sm text-muted">Search 563-20-xxxx across models.</p>
+          <p className="mt-1 text-sm text-muted">Models by item code.</p>
         </Link>
         <Link to="/compare" className="rounded-md border border-border bg-surface p-4 hover:border-accent">
           <p className="font-display text-lg tracking-wide">Compare</p>

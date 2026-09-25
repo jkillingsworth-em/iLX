@@ -25,10 +25,10 @@ function DigitsPage() {
   return (
     <Page>
       <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-subtle">BOM</p>
-      <h1 className="mt-1 font-display text-3xl tracking-tight">Digit part search</h1>
+      <h1 className="mt-1 font-display text-3xl tracking-tight">Models by item code</h1>
       <p className="mt-2 max-w-xl text-sm text-muted">
-        {partCount ? `${partCount} lines from Drive DIGITS PER MODEL Parts sheet.` : "BOM table loading from Drive Parts sheet."}{" "}
-        Type 563-20-1010, 18-IN, or amber.
+        {partCount ? `${partCount} face-digit lines, plus ETN item codes.` : "BOM table loading."}{" "}
+        Type 563-20-1010, 563-10-4025, or 18-IN.
       </p>
       <Input
         className="mt-4"
@@ -51,7 +51,6 @@ function DigitsPage() {
               <Link
                 to="/catalog/$modelId"
                 params={{ modelId: h.model.id }}
-                search={{ tab: "electrical" }}
                 className="flex items-center justify-between gap-3 px-3 py-3 hover:bg-surface"
               >
                 <span>

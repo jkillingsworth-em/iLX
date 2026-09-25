@@ -9,6 +9,7 @@ import { salesLines } from "@/data/sales";
 import { SPECS } from "@/data/specs";
 import { MECH } from "@/data/mech";
 import { manualFor } from "@/data/manuals";
+import { ETN_BY_MODEL } from "@/data/etn";
 import { VariantGallery } from "@/components/lx/variant-gallery";
 import { DocViewer } from "@/components/lx/cutsheet-viewer";
 import { Badge } from "@/components/ui/badge";
@@ -19,6 +20,11 @@ import { pushRecent } from "@/lib/recent";
 export const Route = createFileRoute("/catalog/$modelId")({
   component: ModelPage,
 });
+
+function prettySize(size: string): string {
+  const match = size.replace(/\s+/g, "").match(/^(\d+)[x×](\d+)$/i);
+  return match ? `${match[1]} × ${match[2]}` : size;
+}
 
 function Fact({ label, value }: { label: string; value: string }) {
   return (
@@ -44,6 +50,7 @@ function ModelPage() {
   const mech = MECH[model.id];
   const mechEtn = MECH[`${model.id}-ETN`];
   const manual = manualFor(model.id);
+  const etnFit = ETN_BY_MODEL[model.id];
 
   useEffect(() => {
     pushRecent(model.id);
@@ -115,6 +122,38 @@ function ModelPage() {
                 <span className="text-right">{d.detail}</span>
               </li>
             ))}
+          </ul>
+        </div>
+      ) : null}
+
+      {etnFit ? (
+        <div>
+          <h2 className="font-display text-lg tracking-wide">ETN digits</h2>
+          <ul className="mt-2 divide-y divide-border rounded-md border border-border">
+            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+              <span className="text-muted">Panel size</span>
+              <span>{prettySize(etnFit.panel)}</span>
+            </li>
+            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+              <span className="text-muted">Full ETN size</span>
+              <span>{prettySize(etnFit.fullSize)}</span>
+            </li>
+            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+              <span className="text-muted">Full ETN qty</span>
+              <span className="font-mono tabular-nums">{etnFit.fullQty}</span>
+            </li>
+            {etnFit.halfSize && etnFit.halfQty ? (
+              <>
+                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+                  <span className="text-muted">Half ETN size</span>
+                  <span>{prettySize(etnFit.halfSize)}</span>
+                </li>
+                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+                  <span className="text-muted">Half ETN qty</span>
+                  <span className="font-mono tabular-nums">{etnFit.halfQty}</span>
+                </li>
+              </>
+            ) : null}
           </ul>
         </div>
       ) : null}
