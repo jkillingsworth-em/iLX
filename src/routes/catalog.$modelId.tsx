@@ -126,38 +126,6 @@ function ModelPage() {
         </div>
       ) : null}
 
-      {etnFit ? (
-        <div>
-          <h2 className="font-display text-lg tracking-wide">ETN digits</h2>
-          <ul className="mt-2 divide-y divide-border rounded-md border border-border">
-            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-              <span className="text-muted">Panel size</span>
-              <span>{prettySize(etnFit.panel)}</span>
-            </li>
-            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-              <span className="text-muted">Full ETN size</span>
-              <span>{prettySize(etnFit.fullSize)}</span>
-            </li>
-            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-              <span className="text-muted">Full ETN qty</span>
-              <span className="font-mono tabular-nums">{etnFit.fullQty}</span>
-            </li>
-            {etnFit.halfSize && etnFit.halfQty ? (
-              <>
-                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-                  <span className="text-muted">Half ETN size</span>
-                  <span>{prettySize(etnFit.halfSize)}</span>
-                </li>
-                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-                  <span className="text-muted">Half ETN qty</span>
-                  <span className="font-mono tabular-nums">{etnFit.halfQty}</span>
-                </li>
-              </>
-            ) : null}
-          </ul>
-        </div>
-      ) : null}
-
       {assemblies.length ? (
         <div>
           <h2 className="font-display text-lg tracking-wide">Mask assemblies</h2>
@@ -225,6 +193,38 @@ function ModelPage() {
                 {k.qty}× {k.item} · <span className="font-mono text-xs">{k.part}</span>
               </li>
             ))}
+          </ul>
+        </div>
+      ) : null}
+
+      {etnFit ? (
+        <div>
+          <h2 className="font-display text-lg tracking-wide">ETN BOM</h2>
+          <ul className="mt-2 divide-y divide-border rounded-md border border-border">
+            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+              <span className="text-muted">Panel size</span>
+              <span>{prettySize(etnFit.panel)}</span>
+            </li>
+            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+              <span className="text-muted">Full ETN size</span>
+              <span>{prettySize(etnFit.fullSize)}</span>
+            </li>
+            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+              <span className="text-muted">Full ETN qty</span>
+              <span className="font-mono tabular-nums">{etnFit.fullQty}</span>
+            </li>
+            {etnFit.halfSize && etnFit.halfQty ? (
+              <>
+                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+                  <span className="text-muted">Half ETN size</span>
+                  <span>{prettySize(etnFit.halfSize)}</span>
+                </li>
+                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
+                  <span className="text-muted">Half ETN qty</span>
+                  <span className="font-mono tabular-nums">{etnFit.halfQty}</span>
+                </li>
+              </>
+            ) : null}
           </ul>
         </div>
       ) : null}
