@@ -162,7 +162,7 @@ export const parts: Part[] = [
     category: "power",
     short: "120 VAC in, ~18.9 VDC out to LX drivers",
     role: "Converts building power into the low-voltage DC the drivers and LED strings need.",
-    how: "Mounted on the junction chassis, usually behind a large clock or center digit cluster (LX2350: behind the period clock). Standard boards: one supply + 5 A and 3 A fuses. Outdoor installations may include a UPS package — see the Drive UPS powered-scoreboard sheets.",
+    how: "Mounted on the junction chassis, usually behind a large clock or center digit cluster (LX2350: behind the period clock). Standard boards: one supply + 5 A and 3 A fuses. Some outdoor installs add a UPS. That package is not on this page.",
     connects: ["fuse", "lx-driver", "etn16-driver", "junction-chassis"],
     specs: [
       { label: "Input", value: "120 VAC" },
@@ -278,7 +278,7 @@ export const parts: Part[] = [
     category: "cabinet",
     short: "Post hardware that ships with outdoor cabinets",
     role: "Hangs the board on one, two, or more posts without fabricating brackets in the field.",
-    how: "Cut sheets call out post count and max diameter (LX1250: two posts, 4.5 in max). Play clocks (LX3050) are single-post. Mechanical dimensions, eye-bolt locations, and clamp details live on the Drive cut sheets.",
+    how: "Cut sheets call out post count and max diameter (LX1250: two posts, 4.5 in max). Play clocks (LX3050) are single-post. Mechanical dimensions, eye-bolt locations, and clamp details are on that model’s mechanical sheet.",
     connects: ["aluminum-cabinet"],
     specs: [{ label: "Example", value: "LX1250 — 2 posts, Ø 4.5 in max" }],
     usedOn: "Permanent outdoor installations.",

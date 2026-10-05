@@ -87,7 +87,7 @@ export const systemNodes: SystemNode[] = [
     layer: "display",
     summary: "Word headers to digit PCBs. Polarity and buffered/unbuffered must match the BOM.",
     detail:
-      "Drive “LX#### DIGITS” sheets list qty, mask type (single/double), buffered vs unbuffered, and whether a single-segment driver or pull-up header is installed on a standoff. That BOM is the ground truth when you replace a digit.",
+      "The model digit BOM lists qty, mask, and the current item code. Match that line when you replace a digit.",
     parts: ["ribbon-cable", "led-digit"],
     next: ["digits"],
   },

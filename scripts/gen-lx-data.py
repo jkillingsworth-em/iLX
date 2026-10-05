@@ -106,7 +106,7 @@ SPECS = {
     "LX8750": {"weightLb": 145, "currentA": 2.2},
 }
 
-# Digit kits from Drive "LX#### DIGITS" sheets
+# Digit kits copied from the LX#### DIGITS workbooks.
 DIGIT_KITS = {
     "LX1710": [
         {"qty": 22, "part": "563-20-1000", "item": '11" red digit', "use": "Guest/Home innings 1–9 and totals"},
@@ -120,7 +120,7 @@ DIGIT_KITS = {
     ],
 }
 
-# Baseball display features from Drive "Specifications of LX Series Baseball Scoreboard Models"
+# Baseball display features copied from the baseball scoreboard specification matrix.
 BB = {
     "LX1020": dict(score='2-digit total runs 11"', inning='1-digit inning 11"', count='3-bullet Ball / 2-bullet Strike / 2-bullet Out (3")'),
     "LX1030": dict(score='2-digit total runs 18"', inning='1-digit inning 18"', count='3-bullet Ball / 2-bullet Strike / 2-bullet Out (4")'),
@@ -556,7 +556,6 @@ def build():
             "productUrl": product_path(sport, mid),
             "manualUrl": "https://www.electro-mech.com/manuals/",
             "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-            "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
         }
         if mid in SPECS:
             m.update({k: v for k, v in SPECS[mid].items()})
@@ -572,14 +571,9 @@ def build():
 HEADER = '''/**
  * Compiled LX-series catalog.
  * Sources: Electro-Mech owner's manuals (electro-mech.com/manuals),
- * color spec sheets, Drive mechanical cut sheets
- * (folder "Scoreboard Mechanical Cut Sheets"), Drive "Specifications of
- * LX Series Baseball Scoreboard Models", and Drive "LX#### DIGITS" BOMs.
+ * Specs, mechanical sheets, and manuals open on electro-mech.com.
  */
 import type { LxModel } from "./types";
-
-export const CUTSHEET_FOLDER =
-  "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-";
 
 export const MANUALS_INDEX = "https://www.electro-mech.com/manuals/";
 export const SPEC_SHEETS_INDEX = "https://www.electro-mech.com/manuals-spec-sheets/";

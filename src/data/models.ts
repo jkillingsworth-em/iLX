@@ -1,14 +1,8 @@
 /**
  * Compiled LX-series catalog.
- * Sources: Electro-Mech owner's manuals (electro-mech.com/manuals),
- * color spec sheets, Drive mechanical cut sheets
- * (folder "Scoreboard Mechanical Cut Sheets"), Drive "Specifications of
- * LX Series Baseball Scoreboard Models", and Drive "LX#### DIGITS" BOMs.
+ * Specs, mechanical sheets, and manuals open on electro-mech.com.
  */
 import type { LxModel } from "./types";
-
-export const CUTSHEET_FOLDER =
-  "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-";
 
 export const MANUALS_INDEX = "https://www.electro-mech.com/manuals/";
 export const SPEC_SHEETS_INDEX = "https://www.electro-mech.com/manuals-spec-sheets/";
@@ -77,7 +71,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1020/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1030",
@@ -142,7 +135,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1030/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1050",
@@ -207,7 +199,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1050/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1060",
@@ -281,7 +272,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1060/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1062",
@@ -342,7 +332,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx1062/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1064",
@@ -403,7 +392,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx1064/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 90,
     "currentA": 0.8
   },
@@ -479,7 +467,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1070/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1118",
@@ -539,7 +526,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx1118/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1130",
@@ -610,7 +596,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1130/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1131",
@@ -687,7 +672,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1131/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1132",
@@ -764,7 +748,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1132/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1135",
@@ -836,7 +819,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1135/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1136",
@@ -908,7 +890,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1136/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1138",
@@ -980,7 +961,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1138/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1160",
@@ -1060,7 +1040,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1160/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1161",
@@ -1146,7 +1125,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1161/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1162",
@@ -1232,7 +1210,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1162/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 220,
     "currentA": 1.6
   },
@@ -1320,7 +1297,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1164/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1165",
@@ -1401,7 +1377,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1165/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1166",
@@ -1482,7 +1457,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1166/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1168",
@@ -1563,7 +1537,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1168/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1240",
@@ -1631,7 +1604,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1240/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1241",
@@ -1705,7 +1677,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1241/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1244",
@@ -1779,7 +1750,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1244/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1250",
@@ -1853,7 +1823,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1250/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 220,
     "currentA": 1.6,
     "posts": 2,
@@ -1932,7 +1901,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1260/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1320",
@@ -2012,7 +1980,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx1320/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 50,
     "currentA": 0.9
   },
@@ -2085,7 +2052,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1340/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1341",
@@ -2156,7 +2122,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1341/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1360",
@@ -2229,7 +2194,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1360/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1370",
@@ -2307,7 +2271,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1370/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1371",
@@ -2387,7 +2350,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1371/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1372",
@@ -2467,7 +2429,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1372/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1373",
@@ -2546,7 +2507,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1373/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1374",
@@ -2626,7 +2586,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1374/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1376",
@@ -2705,7 +2664,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1376/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1377",
@@ -2779,7 +2737,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1377/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1390",
@@ -2862,7 +2819,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1390/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1440",
@@ -2936,7 +2892,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1440/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 400,
     "currentA": 2.5
   },
@@ -3019,7 +2974,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1480/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1486",
@@ -3101,7 +3055,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1486/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1620",
@@ -3169,7 +3122,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1620/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 350,
     "currentA": 3.2
   },
@@ -3249,7 +3201,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1630/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1631",
@@ -3329,7 +3280,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1631/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1632",
@@ -3409,7 +3359,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1632/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1633",
@@ -3488,7 +3437,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1633/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1634",
@@ -3568,7 +3516,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1634/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1636",
@@ -3647,7 +3594,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1636/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1637",
@@ -3722,7 +3668,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1637/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1700",
@@ -3790,7 +3735,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1700/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 250,
     "currentA": 1.8
   },
@@ -3865,7 +3809,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1710/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 300,
     "currentA": 2.6,
     "digitKit": [
@@ -3956,7 +3899,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1711/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1712",
@@ -4031,7 +3973,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1712/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1713",
@@ -4105,7 +4046,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1713/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1714",
@@ -4180,7 +4120,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1714/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1716",
@@ -4258,7 +4197,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1716/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1717",
@@ -4333,7 +4271,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1717/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1720",
@@ -4401,7 +4338,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1720/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1730",
@@ -4474,7 +4410,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1730/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1731",
@@ -4549,7 +4484,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1731/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1732",
@@ -4624,7 +4558,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1732/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1733",
@@ -4698,7 +4631,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1733/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1734",
@@ -4773,7 +4705,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1734/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1736",
@@ -4847,7 +4778,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1736/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1737",
@@ -4922,7 +4852,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1737/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1740",
@@ -5001,7 +4930,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1740/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 350,
     "currentA": 3.5
   },
@@ -5084,7 +5012,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1741/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1742",
@@ -5165,7 +5092,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1742/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1743",
@@ -5245,7 +5171,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1743/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1744",
@@ -5326,7 +5251,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1744/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1746",
@@ -5406,7 +5330,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1746/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1750",
@@ -5485,7 +5408,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1750/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "digitKit": [
       {
         "qty": 5,
@@ -5592,7 +5514,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1751/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1752",
@@ -5673,7 +5594,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1752/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1753",
@@ -5753,7 +5673,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1753/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1754",
@@ -5834,7 +5753,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1754/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1756",
@@ -5914,7 +5832,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1756/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1780",
@@ -5995,7 +5912,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1780/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1781",
@@ -6076,7 +5992,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1781/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1782",
@@ -6159,7 +6074,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1782/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1783",
@@ -6241,7 +6155,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1783/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1784",
@@ -6324,7 +6237,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1784/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX1786",
@@ -6406,7 +6318,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/baseball/scoreboard-lx1786/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2055",
@@ -6486,7 +6397,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2055/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2056",
@@ -6566,7 +6476,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2056/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2120",
@@ -6625,7 +6534,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx2120/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2150",
@@ -6684,7 +6592,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx2150/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2158",
@@ -6743,7 +6650,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx2158/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2160",
@@ -6802,7 +6708,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx2160/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2170",
@@ -6861,7 +6766,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx2170/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 30,
     "currentA": 0.5,
     "unitNote": "each"
@@ -6923,7 +6827,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx2180/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2330",
@@ -7002,7 +6905,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2330/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2340",
@@ -7084,7 +6986,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2340/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2350",
@@ -7166,7 +7067,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2350/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2370",
@@ -7248,7 +7148,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2370/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2545",
@@ -7330,7 +7229,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2545/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2550",
@@ -7412,7 +7310,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2550/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2555",
@@ -7494,7 +7391,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2555/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2556",
@@ -7576,7 +7472,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2556/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2570",
@@ -7658,7 +7553,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2570/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 190,
     "currentA": 1.6
   },
@@ -7742,7 +7636,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2575/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2576",
@@ -7824,7 +7717,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2576/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2645",
@@ -7902,7 +7794,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2645/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2655",
@@ -7980,7 +7871,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2655/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2665",
@@ -8058,7 +7948,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2665/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX2745",
@@ -8140,7 +8029,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2745/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 140,
     "currentA": 1.7
   },
@@ -8220,7 +8108,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/basketball/scoreboard-lx2770/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3018",
@@ -8276,7 +8163,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3018/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3024",
@@ -8332,7 +8218,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3024/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3030",
@@ -8388,7 +8273,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3030/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3050",
@@ -8444,7 +8328,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3050/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 40,
     "currentA": 0.4,
     "unitNote": "each"
@@ -8503,7 +8386,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3054/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3070",
@@ -8559,7 +8441,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3070/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3120",
@@ -8626,7 +8507,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3120/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3130",
@@ -8696,7 +8576,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3130/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3140",
@@ -8766,7 +8645,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3140/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3150",
@@ -8836,7 +8714,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3150/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3230",
@@ -8906,7 +8783,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3230/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3250",
@@ -8976,7 +8852,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3250/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 340,
     "currentA": 2.2
   },
@@ -9048,7 +8923,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3320/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3325",
@@ -9121,7 +8995,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3325/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3340",
@@ -9191,7 +9064,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3340/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3360",
@@ -9261,7 +9133,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3360/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3365",
@@ -9335,7 +9206,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3365/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3450",
@@ -9408,7 +9278,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx3450/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 340,
     "currentA": 2.2
   },
@@ -9485,7 +9354,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3620/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 350,
     "currentA": 2.6
   },
@@ -9563,7 +9431,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3625/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 350,
     "currentA": 2.7
   },
@@ -9641,7 +9508,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3630/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3640",
@@ -9716,7 +9582,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3640/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3645",
@@ -9792,7 +9657,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3645/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 600,
     "currentA": 2.8
   },
@@ -9869,7 +9733,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3650/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 680,
     "currentA": 2.9
   },
@@ -9947,7 +9810,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3655/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3680",
@@ -10022,7 +9884,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3680/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3685",
@@ -10098,7 +9959,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3685/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3690",
@@ -10173,7 +10033,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3690/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3695",
@@ -10249,7 +10108,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3695/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 750,
     "currentA": 3.1
   },
@@ -10326,7 +10184,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3740/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3745",
@@ -10402,7 +10259,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3745/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 770,
     "currentA": 3.2
   },
@@ -10479,7 +10335,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3780/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3785",
@@ -10555,7 +10410,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3785/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3840",
@@ -10630,7 +10484,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3840/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3845",
@@ -10706,7 +10559,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3845/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3880",
@@ -10781,7 +10633,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3880/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX3885",
@@ -10857,7 +10708,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx3885/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6320",
@@ -10929,7 +10779,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6320/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6324",
@@ -11001,7 +10850,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6324/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6360",
@@ -11078,7 +10926,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6360/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6370",
@@ -11155,7 +11002,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6370/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 350,
     "currentA": 1.6
   },
@@ -11231,7 +11077,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6390/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6430",
@@ -11307,7 +11152,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6430/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6434",
@@ -11383,7 +11227,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6434/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6435",
@@ -11460,7 +11303,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6435/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6436",
@@ -11536,7 +11378,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6436/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6540",
@@ -11612,7 +11453,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6540/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6544",
@@ -11688,7 +11528,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6544/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6545",
@@ -11765,7 +11604,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6545/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6546",
@@ -11841,7 +11679,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6546/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 500,
     "currentA": 3.1
   },
@@ -11918,7 +11755,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6630/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6650",
@@ -11993,7 +11829,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6650/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6655",
@@ -12069,7 +11904,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6655/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6740",
@@ -12145,7 +11979,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6740/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6744",
@@ -12221,7 +12054,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6744/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6745",
@@ -12298,7 +12130,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6745/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6746",
@@ -12374,7 +12205,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6746/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6940",
@@ -12450,7 +12280,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6940/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6944",
@@ -12526,7 +12355,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6944/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 600,
     "currentA": 4.1
   },
@@ -12605,7 +12433,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6945/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX6946",
@@ -12681,7 +12508,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/soccer/scoreboard-lx6946/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7230",
@@ -12753,7 +12579,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx7230/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7260",
@@ -12825,7 +12650,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx7260/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7406",
@@ -12888,7 +12712,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx7406/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7520",
@@ -12951,7 +12774,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx7520/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7620",
@@ -13014,7 +12836,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/football/scoreboard-lx7620/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7640",
@@ -13086,7 +12907,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx7640/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7740",
@@ -13161,7 +12981,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx7740/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7770",
@@ -13236,7 +13055,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx7770/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX7860",
@@ -13309,7 +13127,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx7860/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 150,
     "currentA": 1.8
   },
@@ -13386,7 +13203,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx8350/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 89,
     "currentA": 1.4
   },
@@ -13463,7 +13279,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx8440/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX8650",
@@ -13538,7 +13353,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx8650/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   },
   {
     "id": "LX8750",
@@ -13613,7 +13427,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx8750/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
     "weightLb": 145,
     "currentA": 2.2
   },
@@ -13690,7 +13503,6 @@ export const models: LxModel[] = [
     "productUrl": "https://www.electro-mech.com/hockey/scoreboard-lx8850/",
     "manualUrl": "https://www.electro-mech.com/manuals/",
     "specSheetUrl": "https://www.electro-mech.com/manuals-spec-sheets/",
-    "cutsheetFolder": "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-"
   }
 ] as LxModel[];
 

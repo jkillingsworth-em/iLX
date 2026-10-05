@@ -1,7 +1,7 @@
 export type BomLine = { qty: number; item: string; part: string };
 export type AssemblyLine = { qty: number; item: string; use: string };
 
-/** Digit / indicator BOM from Drive DIGITS PER MODEL — Parts sheet (red outdoor P/Ns).
+/** Digit / indicator BOM. Red outdoor part numbers.
  *  Unbuffered 18 in (old 563-20-1310) is current red 563-20-1296.
  *  24 in (old 563-20-1414) is current red 563-20-1416.
  *  A 30 in digit is three red boards: top 563-20-1632, middle 563-20-1625, bottom 563-20-1612. Qty is complete digits.
@@ -179,7 +179,7 @@ export const bomByModel: Record<string, BomLine[]> = {
   LX8850: [{ qty: 4, item: "12-IN FULL RED", part: "563-20-3010" }, { qty: 1, item: "12-IN COLON/DEC", part: "563-20-3030" }, { qty: 4, item: "12-IN AMBER", part: "563-20-3011" }, { qty: 2, item: "12-IN AMBER HALF DIGIT", part: "563-20-3021" }, { qty: 13, item: "9-IN GREEN", part: "563-20-3062" }, { qty: 4, item: "9-IN GREEN COLON/DEC", part: "563-20-3082" }, { qty: 4, item: "9-IN FULL AMBER", part: "563-20-3061" }, { qty: 8, item: "9-IN FULL RED", part: "563-20-3060" }],
 };
 
-/** Mask-level assemblies from Drive DIGITS PER MODEL — Assemblies sheet. */
+/** Mask-level assemblies. */
 export const assembliesByModel: Record<string, AssemblyLine[]> = {
   LX1020: [{ qty: 1, item: "11\" Digit on single mask", use: "inning" }, { qty: 2, item: "11\" Digits on double mask", use: "home and guest scores" }, { qty: 1, item: "3 inch outdoor balls bullets", use: "balls" }, { qty: 2, item: "3 inch outdoor strikes/outs bullets", use: "strikes, outs" }],
   LX1030: [{ qty: 1, item: "18\" Digit on single mask", use: "inning" }, { qty: 2, item: "18\" Digits on double mask", use: "home and guest scores" }, { qty: 1, item: "4 inch outdoor balls bullets", use: "balls" }, { qty: 2, item: "4 inch outdoor strikes/outs bullets", use: "strikes, outs" }],

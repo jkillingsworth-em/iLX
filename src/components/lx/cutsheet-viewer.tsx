@@ -1,6 +1,4 @@
 import { Download, ExternalLink } from "lucide-react";
-import type { CutsheetFile } from "@/data/cutsheets";
-import { driveDownloadUrl, drivePreviewUrl, driveViewUrl } from "@/data/cutsheets";
 
 export function DocViewer({
   label,
@@ -44,23 +42,6 @@ export function DocViewer({
       </div>
       <iframe title={label} src={preview} className="h-[min(70vh,36rem)] w-full bg-bg" allow="fullscreen" />
     </div>
-  );
-}
-
-export function CutsheetViewer({
-  file,
-  label,
-}: {
-  file: CutsheetFile;
-  label: string;
-}) {
-  return (
-    <DocViewer
-      label={label}
-      previewHref={drivePreviewUrl(file.fileId)}
-      openHref={driveViewUrl(file.fileId)}
-      downloadHref={driveDownloadUrl(file.fileId)}
-    />
   );
 }
 

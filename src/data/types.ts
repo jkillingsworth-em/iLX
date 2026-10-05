@@ -41,7 +41,6 @@ export interface LxModel {
   productUrl: string;
   manualUrl: string;
   specSheetUrl: string;
-  cutsheetFolder: string;
   weightLb?: number;
   currentA?: number;
   unitNote?: string;

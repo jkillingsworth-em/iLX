@@ -52,19 +52,4 @@ export const sources = [
     href: "/catalog",
     note: "Per-model PDFs open inside iLX. Cabinet size, weight, eye-bolts, clamp hardware, post diameter. ETN variants when the board has team names.",
   },
-  {
-    title: "Baseball display matrix (Drive)",
-    href: "https://docs.google.com/spreadsheets/d/1up3RKgp3VcmcxnIGudKEb6WAW4Qrwmq-_eEA09HOtOA",
-    note: "Specifications of LX Series Baseball Scoreboard Models — runs, innings, BSO, timers, pitch/batter, H/E.",
-  },
-  {
-    title: "Digit BOM sheets (Drive)",
-    href: "https://drive.google.com/drive/folders/1xWVSpLJQ7JQstlheBRuJCKT1X5xu8xM-",
-    note: "LX#### DIGITS workbooks: qty, mask, buffered/unbuffered, pull-up header, Electro-Mech part numbers.",
-  },
-  {
-    title: "Glossary & engineering history (Drive)",
-    href: "https://docs.google.com/document/d/1B2iiHnveJSCH5cvcRqOjds7Mlejmmjrg7M3eniyOous",
-    note: "Internal terms: EM, SS, MP, MM, CX, ScoreLink, Hirose, stereo, LX Driver.",
-  },
 ];
