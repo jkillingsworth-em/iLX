@@ -16,7 +16,7 @@ function PartsPage() {
         <h1 className="font-display text-4xl tracking-tight">Controllers, drivers, and options</h1>
         <p className="max-w-2xl text-sm leading-relaxed text-muted">
           Consoles, LX drivers, ScoreLink, ETN, horns, and the T-Cart. Terms follow the plant
-          glossary — CX, stereo, ETN16.
+          glossary — CX, stereo, ETN.
         </p>
       </header>
 

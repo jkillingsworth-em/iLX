@@ -67,7 +67,7 @@ export const systemNodes: SystemNode[] = [
     layer: "cabinet",
     summary: "Power supplies, fuses, and the LX driver chain share one service plate.",
     detail:
-      "On LX2350 the chassis is behind the period-clock digits. Standard: one supply, two driver PCBs, 5 A + 3 A fuses. ETN: second supply, third PCB (ETN16), 10 A fuse. Always kill power before pulling boards.",
+      "On LX2350 the chassis is behind the period-clock digits. Standard: one supply, two driver PCBs, 5 A + 3 A fuses. An ETN driver, when the model has one, is listed on that model’s ETN section. It is not always an ETN16. Always kill power before pulling boards.",
     parts: ["junction-chassis", "power-supply", "fuse"],
     next: ["drivers"],
   },
@@ -77,7 +77,7 @@ export const systemNodes: SystemNode[] = [
     layer: "cabinet",
     summary: "Drivers decode words and daisy-chain left to right, lower chassis first.",
     detail:
-      "Each board owns a documented set of digits. Example from LX1440: LX33 (total runs/hits/errors), LX26 (top-line stats), LX7 (ball/strike/out). J2 in, J3 out, J7 = 18.9 VDC, word headers to ribbons. Jumpers set bank offsets so two identical boards can share a cabinet without address collisions. Last J3 may feed an ETN16 driver.",
+      "Each board owns a documented set of digits. Example from LX1440: LX33 (total runs/hits/errors), LX26 (top-line stats), LX7 (ball/strike/out). J2 in, J3 out, J7 = 18.9 VDC, word headers to ribbons. Jumpers set bank offsets so two identical boards can share a cabinet without address collisions. Last J3 may feed that model’s ETN driver.",
     parts: ["lx-driver", "etn16-driver", "power-supply"],
     next: ["ribbons"],
   },
@@ -97,7 +97,7 @@ export const systemNodes: SystemNode[] = [
     layer: "display",
     summary: "7-segment boards, bullets, H/E characters, and optional ETN matrices.",
     detail:
-      "LEDs mount on PCBs behind black aluminum masks. Epoxy shells poke through for viewing angle and take the hit from a foul ball. Outdoor boards are conformal-coated. Colors: red or amber outdoors; indoor basketball often adds green on period/player/foul. Dim from the console (50 steps) for night games.",
+      "Outdoor digits and indoor digits are different assemblies. Every outdoor size is stocked in red and in amber as separate item codes. Indoor color depends on the item: some sizes come in red, amber, and green, and some sizes come in only one color. See the LED digit assembly page.",
     parts: ["led-digit", "bullet-indicator", "he-character", "etn-module"],
     next: [],
   },

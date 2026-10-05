@@ -113,7 +113,7 @@ DIGIT_KITS = {
         {"qty": 5, "part": "563-20-1010", "item": '15" red digit', "use": "Ball, Strike, Out, Batter Number"},
     ],
     "LX1750": [
-        {"qty": 5, "part": "563-20-1310", "item": '18" red unbuffered digit', "use": "Ball, Strike, Out, Batter Number"},
+        {"qty": 5, "part": "563-20-1296", "item": '18" red digit', "use": "Ball, Strike, Out, Batter Number"},
         {"qty": 31, "part": "563-20-1010", "item": '15" red digit', "use": "Innings, Runs, Hits, Errors"},
         {"qty": 1, "part": "563-20-1160", "item": '15" red E indicator', "use": "Error character"},
         {"qty": 1, "part": "563-20-1170", "item": '15" red H indicator', "use": "Hit character"},

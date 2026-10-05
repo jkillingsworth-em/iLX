@@ -28,7 +28,7 @@ function DigitsPage() {
       <h1 className="mt-1 font-display text-3xl tracking-tight">Models by item code</h1>
       <p className="mt-2 max-w-xl text-sm text-muted">
         {partCount ? `${partCount} face-digit lines, plus ETN item codes.` : "BOM table loading."}{" "}
-        Type 563-20-1010, 563-10-4025, or 18-IN.
+        Type a full item code. Outdoor red and amber are different codes. Indoor digits are a separate list.
       </p>
       <Input
         className="mt-4"

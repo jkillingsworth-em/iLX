@@ -59,6 +59,8 @@ export interface Part {
   how: string;
   connects: string[];
   specs: { label: string; value: string }[];
+  /** Separate indoor and outdoor sheets when one part record would mix them. */
+  panels?: { title: string; body: string; specs: { label: string; value: string }[] }[];
   usedOn: string;
   image?: string;
 }

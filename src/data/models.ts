@@ -47,7 +47,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -65,13 +64,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "bullet-indicator",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -116,7 +112,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -134,13 +129,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "bullet-indicator",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -185,7 +177,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -203,13 +194,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "bullet-indicator",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -279,7 +267,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -325,7 +312,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -343,13 +329,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -390,7 +373,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -408,13 +390,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -486,7 +465,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -532,7 +510,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "pitch count / speed",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -549,13 +526,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -606,7 +580,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "pitch count / speed",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -624,13 +597,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "bullet-indicator",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -686,7 +656,6 @@ export const models: LxModel[] = [
       "aluminum cabinet",
       "game clock",
       "pitch count / speed",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -705,13 +674,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -767,7 +733,6 @@ export const models: LxModel[] = [
       "aluminum cabinet",
       "game clock",
       "pitch count / speed",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -786,13 +751,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -843,7 +805,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -862,13 +823,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -919,7 +877,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -938,13 +895,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -995,7 +949,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -1014,13 +967,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -1096,7 +1046,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1183,7 +1132,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1270,7 +1218,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1359,7 +1306,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1441,7 +1387,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1523,7 +1468,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1605,7 +1549,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1674,7 +1617,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1749,7 +1691,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1824,7 +1765,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1899,7 +1839,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -1979,7 +1918,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2043,7 +1981,6 @@ export const models: LxModel[] = [
       "aluminum cabinet",
       "game clock",
       "reversible captions",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -2062,14 +1999,11 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp",
       "t-cart"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -2120,7 +2054,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -2139,13 +2072,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -2195,7 +2125,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -2214,13 +2143,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -2272,7 +2198,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -2291,13 +2216,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -2371,7 +2293,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2452,7 +2373,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2533,7 +2453,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2613,7 +2532,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2694,7 +2612,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2774,7 +2691,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2849,7 +2765,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -2933,7 +2848,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3241,7 +3155,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3322,7 +3235,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3403,7 +3315,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3484,7 +3395,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3564,7 +3474,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3645,7 +3554,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3725,7 +3633,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3801,7 +3708,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3870,7 +3776,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -3946,7 +3851,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4038,7 +3942,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4114,7 +4017,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4189,7 +4091,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4265,7 +4166,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4344,7 +4244,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4420,7 +4319,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4489,7 +4387,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4563,7 +4460,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4639,7 +4535,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4715,7 +4610,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4790,7 +4684,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4866,7 +4759,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -4941,7 +4833,6 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5017,7 +4908,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5097,7 +4987,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5181,7 +5070,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5263,7 +5151,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5344,7 +5231,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5426,7 +5312,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5507,7 +5392,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5587,7 +5471,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5606,8 +5489,8 @@ export const models: LxModel[] = [
     "digitKit": [
       {
         "qty": 5,
-        "part": "563-20-1310",
-        "item": "18\" red unbuffered digit",
+        "part": "563-20-1296",
+        "item": "18\" red digit",
         "use": "Ball, Strike, Out, Batter Number"
       },
       {
@@ -5695,7 +5578,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5777,7 +5659,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5858,7 +5739,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -5940,7 +5820,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6021,7 +5900,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6103,7 +5981,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6185,7 +6062,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6269,7 +6145,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6352,7 +6227,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6436,7 +6310,6 @@ export const models: LxModel[] = [
       "he-character",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6519,7 +6392,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "he-character",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -6583,7 +6455,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -6602,13 +6473,10 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "shot-timer-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -6667,7 +6535,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -6686,13 +6553,10 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "shot-timer-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -6733,7 +6597,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -6750,13 +6613,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -6796,7 +6656,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -6813,13 +6672,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -6859,7 +6715,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -6876,13 +6731,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -6922,7 +6774,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -6939,13 +6790,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -6985,7 +6833,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -7002,13 +6849,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -7051,7 +6895,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -7068,13 +6911,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -7132,7 +6972,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -7151,13 +6990,10 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "shot-timer-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -7235,7 +7071,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7318,7 +7153,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7401,7 +7235,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7484,7 +7317,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7567,7 +7399,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7650,7 +7481,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7733,7 +7563,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7816,7 +7645,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7901,7 +7729,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -7984,7 +7811,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8063,7 +7889,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8142,7 +7967,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8221,7 +8045,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8304,7 +8127,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8385,7 +8207,6 @@ export const models: LxModel[] = [
       "horn",
       "shot-timer-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8425,7 +8246,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8443,13 +8263,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8485,7 +8302,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8503,13 +8319,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8545,7 +8358,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8563,13 +8375,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8605,7 +8414,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8623,13 +8431,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8668,7 +8473,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8686,13 +8490,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8728,7 +8529,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8746,13 +8546,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8798,7 +8595,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -8817,13 +8613,10 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "play-clock-handheld",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -8889,7 +8682,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -8960,7 +8752,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9031,7 +8822,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9102,7 +8892,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9173,7 +8962,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9246,7 +9034,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9320,7 +9107,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9391,7 +9177,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9462,7 +9247,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9610,7 +9394,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9688,7 +9471,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9767,7 +9549,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9921,7 +9702,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -9998,7 +9778,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10076,7 +9855,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10155,7 +9933,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10231,7 +10008,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10308,7 +10084,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10384,7 +10159,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10461,7 +10235,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10539,7 +10312,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10616,7 +10388,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10694,7 +10465,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10771,7 +10541,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10847,7 +10616,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -10924,7 +10692,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11000,7 +10767,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11077,7 +10843,6 @@ export const models: LxModel[] = [
       "horn",
       "play-clock-handheld",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11133,7 +10898,6 @@ export const models: LxModel[] = [
       "aluminum cabinet",
       "game clock",
       "reversible captions",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -11152,13 +10916,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -11209,7 +10970,6 @@ export const models: LxModel[] = [
       "aluminum cabinet",
       "game clock",
       "reversible captions",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -11228,13 +10988,10 @@ export const models: LxModel[] = [
       "scorelink",
       "bullet-indicator",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -11307,7 +11064,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11385,7 +11141,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11446,7 +11201,6 @@ export const models: LxModel[] = [
       "aluminum cabinet",
       "game clock",
       "reversible captions",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -11464,13 +11218,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -11542,7 +11293,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11619,7 +11369,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11697,7 +11446,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11774,7 +11522,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11851,7 +11598,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -11928,7 +11674,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12006,7 +11751,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12083,7 +11827,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12161,7 +11904,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12237,7 +11979,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12314,7 +12055,6 @@ export const models: LxModel[] = [
       "bullet-indicator",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12391,7 +12131,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12468,7 +12207,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12546,7 +12284,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12623,7 +12360,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12700,7 +12436,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12777,7 +12512,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12857,7 +12591,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12934,7 +12667,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -12992,7 +12724,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13010,13 +12741,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13068,7 +12796,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13086,13 +12813,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13136,7 +12860,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13153,13 +12876,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13203,7 +12923,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13220,13 +12939,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13270,7 +12986,6 @@ export const models: LxModel[] = [
       "LED",
       "120 VAC",
       "aluminum cabinet",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13287,13 +13002,10 @@ export const models: LxModel[] = [
       "junction-box",
       "stereo-patch",
       "scorelink",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13345,7 +13057,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13363,13 +13074,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13440,7 +13148,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -13516,7 +13223,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -13573,7 +13279,6 @@ export const models: LxModel[] = [
       "120 VAC",
       "aluminum cabinet",
       "game clock",
-      "ETN optional",
       "ScoreLink optional"
     ],
     "components": [
@@ -13591,13 +13296,10 @@ export const models: LxModel[] = [
       "stereo-patch",
       "scorelink",
       "horn",
-      "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
     "options": [
-      "Electronic Team Names",
       "ScoreLink wireless",
       "ID panels",
       "Custom paint",
@@ -13671,7 +13373,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -13749,7 +13450,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -13825,7 +13525,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -13901,7 +13600,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],
@@ -13979,7 +13677,6 @@ export const models: LxModel[] = [
       "scorelink",
       "horn",
       "etn-module",
-      "etn16-driver",
       "id-panel",
       "mounting-clamp"
     ],

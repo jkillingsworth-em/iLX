@@ -9,7 +9,7 @@ import { salesLines } from "@/data/sales";
 import { SPECS } from "@/data/specs";
 import { MECH } from "@/data/mech";
 import { manualFor } from "@/data/manuals";
-import { ETN_BY_MODEL } from "@/data/etn";
+import { ETN_BY_MODEL, etnItemLines } from "@/data/etn";
 import { VariantGallery } from "@/components/lx/variant-gallery";
 import { DocViewer } from "@/components/lx/cutsheet-viewer";
 import { Badge } from "@/components/ui/badge";
@@ -51,6 +51,25 @@ function ModelPage() {
   const mechEtn = MECH[`${model.id}-ETN`];
   const manual = manualFor(model.id);
   const etnFit = ETN_BY_MODEL[model.id];
+  const etnLines = etnItemLines(model.id, model.environment === "indoor");
+  const etnRows = etnFit
+    ? [
+        etnFit.pixels ? ["Pixels", etnFit.pixels] : null,
+        etnFit.mask ? ["Mask", etnFit.mask] : null,
+        ["Panels per side", String(etnFit.panelsPerSide)],
+        ["Full size", prettySize(etnFit.fullSize)],
+        ["Full qty", String(etnFit.fullQty)],
+        etnFit.halfSize && etnFit.halfQty ? ["Half size", prettySize(etnFit.halfSize)] : null,
+        etnFit.halfQty ? ["Half qty", String(etnFit.halfQty)] : null,
+        ["Driver", etnFit.driver],
+        ["Jumpers", etnFit.jumpers],
+        etnFit.amps != null ? ["Amps", String(etnFit.amps)] : null,
+        etnFit.jack ? ["Convenience jack", etnFit.jack] : null,
+        etnFit.note ? ["Note", etnFit.note] : null,
+        etnFit.guest ? ["Sample guest", etnFit.guest] : null,
+        etnFit.home ? ["Sample home", etnFit.home] : null,
+      ].filter((row): row is [string, string] => Boolean(row))
+    : [];
 
   useEffect(() => {
     pushRecent(model.id);
@@ -201,30 +220,22 @@ function ModelPage() {
         <div>
           <h2 className="font-display text-lg tracking-wide">ETN BOM</h2>
           <ul className="mt-2 divide-y divide-border rounded-md border border-border">
-            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-              <span className="text-muted">Panel size</span>
-              <span>{prettySize(etnFit.panel)}</span>
-            </li>
-            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-              <span className="text-muted">Full ETN size</span>
-              <span>{prettySize(etnFit.fullSize)}</span>
-            </li>
-            <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-              <span className="text-muted">Full ETN qty</span>
-              <span className="font-mono tabular-nums">{etnFit.fullQty}</span>
-            </li>
-            {etnFit.halfSize && etnFit.halfQty ? (
-              <>
-                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-                  <span className="text-muted">Half ETN size</span>
-                  <span>{prettySize(etnFit.halfSize)}</span>
-                </li>
-                <li className="flex justify-between gap-3 px-3 py-2 text-sm">
-                  <span className="text-muted">Half ETN qty</span>
-                  <span className="font-mono tabular-nums">{etnFit.halfQty}</span>
-                </li>
-              </>
-            ) : null}
+            {etnRows.map(([label, value]) => (
+              <li key={label} className="flex items-start justify-between gap-3 px-3 py-2 text-sm">
+                <span className="text-muted">{label}</span>
+                <span className="text-right font-mono">{value}</span>
+              </li>
+            ))}
+            {etnLines.map((line) => (
+              <li key={line.code} className="flex items-start justify-between gap-3 px-3 py-2 text-sm">
+                <span>
+                  {line.qty}× {line.label}
+                </span>
+                <Link to="/digits" search={{ q: line.code }} className="font-mono text-xs hover:underline">
+                  {line.code}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       ) : null}

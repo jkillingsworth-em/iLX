@@ -52,13 +52,26 @@ function PartPage() {
         </div>
       </div>
 
-      <SheetSection label="Specs">
-        <dl>
-          {part.specs.map((s) => (
-            <SpecRow key={s.label} label={s.label} value={s.value} />
-          ))}
-        </dl>
-      </SheetSection>
+      {part.panels?.map((panel) => (
+        <SheetSection key={panel.title} label={panel.title}>
+          <p className="border-b border-border px-4 py-3 text-sm leading-[1.65]">{panel.body}</p>
+          <dl>
+            {panel.specs.map((s) => (
+              <SpecRow key={s.label} label={s.label} value={s.value} />
+            ))}
+          </dl>
+        </SheetSection>
+      ))}
+
+      {part.specs.length ? (
+        <SheetSection label={part.panels?.length ? "Shared" : "Specs"}>
+          <dl>
+            {part.specs.map((s) => (
+              <SpecRow key={s.label} label={s.label} value={s.value} />
+            ))}
+          </dl>
+        </SheetSection>
+      ) : null}
 
       <SheetSection label="Talks to">
         <p className="border-b border-border px-4 py-3 text-sm text-muted">{part.usedOn}</p>
