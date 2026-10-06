@@ -22,6 +22,15 @@ npm install
 npm run dev
 ```
 
+Open http://localhost:8080. Auth stays off for a local copy. On PowerShell:
+
+```powershell
+cd C:\github\iLX
+$env:VITE_AUTH_ENABLED = "false"
+npm install
+npm run dev
+```
+
 ## Data you’ll still drop in
 
 1. Sage 100 ranks → `src/data/sales.ts`
