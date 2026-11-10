@@ -175,11 +175,6 @@ export function renderWebManifest(hostHeader) {
           sizes: "180x180",
           type: "image/png",
         },
-        {
-          src: "/__grok/icon-512.png",
-          sizes: "512x512",
-          type: "image/png",
-        },
       ],
     },
     null,
