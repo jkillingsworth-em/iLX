@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import {
   appNameFromHost,
+  DEFAULT_APP_NAME,
   createHeadInjector,
   grokXCreatorHeadTags,
   injectGrokPwaHead,
@@ -20,6 +21,11 @@ import {
 import { renderInstallPage } from "./grok-pwa-plugin.mjs";
 
 const TEMPLATE_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+
+// Run from an empty directory: helpers that default `cwd` to process.cwd()
+// would otherwise read this app's real src/lib/og/site.json (title, custom
+// card) and the fixtures below would assert against the app, not the code.
+process.chdir(mkdtempSync(join(tmpdir(), "grok-pwa-test-cwd-")));
 
 test("injects before </head>", () => {
   const out = injectGrokPwaHead("<html><head><title>x</title></head><body></body></html>");
@@ -449,14 +455,14 @@ test("strips install params from the app link", () => {
 });
 
 test("names the install page from host slug", () => {
-  assert.equal(appNameFromHost("localhost:8080"), "Grok App");
-  assert.equal(appNameFromHost("172.17.154.217:8080"), "Grok App");
+  assert.equal(appNameFromHost("localhost:8080"), DEFAULT_APP_NAME);
+  assert.equal(appNameFromHost("172.17.154.217:8080"), DEFAULT_APP_NAME);
   assert.equal(appNameFromHost("wild-race.grok.me"), "Wild Race");
 });
 
 test("rejects hosts that are not plain slugs", () => {
-  assert.equal(appNameFromHost("<script>alert(1)</script>"), "Grok App");
-  assert.equal(appNameFromHost('"><img src=x onerror=1>.grok.me'), "Grok App");
+  assert.equal(appNameFromHost("<script>alert(1)</script>"), DEFAULT_APP_NAME);
+  assert.equal(appNameFromHost('"><img src=x onerror=1>.grok.me'), DEFAULT_APP_NAME);
 });
 
 test("renders install page markup", () => {

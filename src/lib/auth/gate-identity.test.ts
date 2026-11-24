@@ -13,6 +13,10 @@ import {
   type GateJwks,
 } from "./gate-identity.server.ts";
 
+// These cases assume the default (sign-in on) unless one sets the flag itself,
+// so don't inherit a VITE_AUTH_ENABLED=false from the machine running them.
+delete process.env.VITE_AUTH_ENABLED;
+
 const ISSUER = "https://gate.app-builder-testing.com";
 const AUDIENCE = "app:proj-123";
 

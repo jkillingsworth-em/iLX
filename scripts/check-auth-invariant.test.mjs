@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
-import { mkdtempSync, symlinkSync } from "node:fs";
+import { existsSync, mkdtempSync, symlinkSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { test } from "node:test";
@@ -90,7 +90,13 @@ test("only a divergence warns the smoke verdict", () => {
   }
 });
 
-test("the build side resolves the template's shipped app-env", () => {
+// .grok/app-env.json is gitignored: the Grok App Builder sandbox ships it, a
+// plain git checkout does not (there, VITE_AUTH_ENABLED comes from the env).
+const SHIPPED_APP_ENV = existsSync(join(projectRoot(), ".grok/app-env.json"))
+  ? {}
+  : { skip: ".grok/app-env.json is not in this checkout (gitignored platform file)" };
+
+test("the build side resolves the template's shipped app-env", SHIPPED_APP_ENV, () => {
   assert.equal(buildAuthEnabled(projectRoot(), {}), false);
   assert.equal(buildAuthEnabled(projectRoot(), { VITE_AUTH_ENABLED: "true" }), true);
 });

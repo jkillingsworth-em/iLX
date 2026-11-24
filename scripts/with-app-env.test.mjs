@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
-import { mkdirSync, mkdtempSync, symlinkSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { test } from "node:test";
@@ -59,7 +59,13 @@ test("an explicit process-env override wins over the file", () => {
   assert.equal(merged.PATH, "/usr/bin");
 });
 
-test("the template ships auth off", () => {
+// .grok/app-env.json is gitignored: the Grok App Builder sandbox ships it, a
+// plain git checkout does not (there, VITE_AUTH_ENABLED comes from the env).
+const SHIPPED_APP_ENV = existsSync(join(projectRoot(), ".grok/app-env.json"))
+  ? {}
+  : { skip: ".grok/app-env.json is not in this checkout (gitignored platform file)" };
+
+test("the template ships auth off", SHIPPED_APP_ENV, () => {
   assert.deepEqual(readAppEnv(projectRoot()), { VITE_AUTH_ENABLED: "false" });
 });
 
@@ -73,13 +79,14 @@ test("vite loadEnv resolves the wrapped value", () => {
   assert.equal(merged.VITE_AUTH_ENABLED, "false");
 });
 
-test("the wrapped command runs with the app env applied", async () => {
-  const { stdout } = await execFileAsync(process.execPath, [
-    WRAPPER,
+test("the wrapped command runs with the app env applied", SHIPPED_APP_ENV, async () => {
+  // Drop any machine-level flag so the value can only come from the file.
+  const { VITE_AUTH_ENABLED: _ignored, ...env } = process.env;
+  const { stdout } = await execFileAsync(
     process.execPath,
-    "-e",
-    PRINT_FLAG,
-  ]);
+    [WRAPPER, process.execPath, "-e", PRINT_FLAG],
+    { env },
+  );
   assert.equal(stdout, "false");
 });
 
@@ -118,11 +125,12 @@ test("the CLI still runs when invoked through a symlinked path", async () => {
   // turns the wrapper into a no-op that exits 0 without starting anything.
   const link = join(mkdtempSync(join(tmpdir(), "app-env-link-")), "scripts");
   symlinkSync(join(projectRoot(), "scripts"), link);
-  const { stdout } = await execFileAsync(process.execPath, [
-    join(link, "with-app-env.mjs"),
+  // Pass the flag explicitly: this checks the wrapper runs the command at all,
+  // not where the value comes from (the shipped file is not in every checkout).
+  const { stdout } = await execFileAsync(
     process.execPath,
-    "-e",
-    PRINT_FLAG,
-  ]);
+    [join(link, "with-app-env.mjs"), process.execPath, "-e", PRINT_FLAG],
+    { env: { ...process.env, VITE_AUTH_ENABLED: "false" } },
+  );
   assert.equal(stdout, "false");
 });

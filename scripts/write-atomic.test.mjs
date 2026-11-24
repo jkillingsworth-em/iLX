@@ -164,7 +164,13 @@ test("cli: relative paths follow the script's root, not the caller's cwd", () =>
   assert.equal(existsSync(join(root, "public/og.jpg")), false);
 });
 
-test("every hand-over the og skill prints is one this script accepts", () => {
+// The og skill docs live in the gitignored .grok/ folder that only the Grok
+// App Builder sandbox provides; a plain git checkout has no copy to check.
+const OG_SKILL_DOCS = existsSync(join(TEMPLATE_ROOT, ".grok/skills/og/SKILL.md"))
+  ? {}
+  : { skip: ".grok/skills/og is not in this checkout (gitignored platform docs)" };
+
+test("every hand-over the og skill prints is one this script accepts", OG_SKILL_DOCS, () => {
   // The card and banner recipes live in the skill's references/, not SKILL.md.
   const skillDir = join(TEMPLATE_ROOT, ".grok/skills/og");
   const docs = [
